@@ -1,0 +1,44 @@
+.site-header-outer {
+    background-color: var(--site-header-bgc);
+}
+
+.site-header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 0px;
+}
+
+.header-logo-box {
+    position: relative;
+    margin-right: auto;
+    & .logo-img {
+        display: inline-block;
+        width: 150px;
+        height: auto;
+    }
+    & .dark-bg-logo-pos {
+        opacity: 0;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        z-index: 2;
+        transition: var(--site-standard-transition-delay);
+    }
+}
+
+@media (max-width: 767px) {
+    .header-logo-box {
+        & .logo-img {
+            width: 120px;
+        }
+    }
+}
+
+.dark {
+    & .header-logo-box {
+        & .dark-bg-logo-pos {
+            opacity: 1;
+        }
+    }
+}
