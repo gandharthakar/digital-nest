@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 * {
   margin: 0px;
   padding: 0px;
@@ -18,9 +19,11 @@ img {
 
 :root {
   --site-color-1: #ed1c24;
+  --site-color-1-hover-dark: #c1151a;
   --site-color-2: #015598;
   --site-color-3: #f4f4f4;
   --site-color-4: #111111;
+  --white: #ffffff;
   --site-color-dark-1: #f4f4f4;
   --site-color-dark-2: #111111;
   --site-color-dark-3: #292929;
@@ -42,6 +45,7 @@ body {
   --site-color-4: var(--site-color-dark-1);
   --site-header-bgc: var(--site-color-dark-2);
   --site-footer-bgc: var(--site-color-dark-3);
+  --white: #000000;
 }
 
 .site-container {
@@ -70,6 +74,39 @@ body {
   text-align: right;
 }
 
+.site-button-s1 {
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 15px;
+  margin: 0px;
+  border: 0px;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: var(--site-color-1);
+  color: var(--site-color-dark-1);
+  -webkit-transition: var(--site-standard-transition-delay);
+  -o-transition: var(--site-standard-transition-delay);
+  transition: var(--site-standard-transition-delay);
+}
+.site-button-s1 .mn-icon, .site-button-s1 .str {
+  display: inline-block;
+  vertical-align: middle;
+}
+.site-button-s1:hover, .site-button-s1:active {
+  text-decoration: none;
+  background-color: var(--site-color-1-hover-dark);
+  color: var(--site-color-dark-1);
+}
+.site-button-s1:hover .str, .site-button-s1:active .str {
+  text-decoration: underline;
+}
+
+@media (max-width: 767px) {
+  .site-button-s1 {
+    padding: 7px 15px;
+    font-size: 14px;
+  }
+}
 .site-header-outer {
   background-color: var(--site-color-3);
   overflow-x: hidden;
@@ -85,7 +122,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   gap: 20px;
-  padding: 10px 0px;
+  padding: 15px 0px;
 }
 
 .header-logo-box {
@@ -94,7 +131,7 @@ body {
 }
 .header-logo-box .logo-img {
   display: inline-block;
-  width: 150px;
+  width: 140px;
   height: auto;
 }
 .header-logo-box .dark-bg-logo-pos {
@@ -499,6 +536,9 @@ body {
   .foo-social-nav .icon-img {
     width: 40px;
     height: 40px;
+  }
+  .msme-img {
+    max-width: 150px;
   }
 }
 @media (max-width: 550px) {

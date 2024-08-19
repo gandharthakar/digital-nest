@@ -1,0 +1,33 @@
+// Busston Style 1
+
+.site-button-s1 {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin: 0px;
+    border: 0px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: var(--site-color-1);
+    color: var(--site-color-dark-1);
+    transition: var(--site-standard-transition-delay);
+    & .mn-icon, .str {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    &:hover, &:active {
+        text-decoration: none;
+        background-color: var(--site-color-1-hover-dark);
+        color: var(--site-color-dark-1);
+        & .str {
+            text-decoration: underline;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .site-button-s1 {
+        padding: 7px 15px;
+        font-size: 14px;
+    }
+}

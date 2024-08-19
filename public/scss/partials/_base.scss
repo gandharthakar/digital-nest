@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
 $font: "Noto Sans", sans-serif;
 
@@ -20,9 +21,11 @@ img {
 
 :root {
     --site-color-1: #ed1c24;
+    --site-color-1-hover-dark: #c1151a;
     --site-color-2: #015598;
     --site-color-3: #f4f4f4;
     --site-color-4: #111111;
+    --white: #ffffff;
     --site-color-dark-1: #f4f4f4;
     --site-color-dark-2: #111111;
     --site-color-dark-3: #292929;
@@ -44,6 +47,7 @@ body {
     --site-color-4: var(--site-color-dark-1);
     --site-header-bgc: var(--site-color-dark-2);
     --site-footer-bgc: var(--site-color-dark-3);
+    --white: #000000;
 }
 
 .site-container {
