@@ -6,9 +6,11 @@
         <title>Digital Nest Computer Institute. | Home</title>
 
         <!-- Stylesheet CSS -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
         <link rel="stylesheet" href="public/css/base.min.css" />
     </head>
     <body>
+        <!-- Header -->
         <div class="site-header-outer">
             <div class="site-container">
                 <header class="site-header">
@@ -22,8 +24,158 @@
                             </a>
                         </div>
                     </div>
+
+                    <nav class="site-nav js-site-nav">
+
+                        <div class="mob-nav-hdr">
+                            <div class="mob-nav-hdr-inr">
+                                <button type="button" title="Close Menu" class="cmn-btn-mnutgl js-close-menu">
+                                    <span class="material-symbols-outlined">
+                                        close
+                                    </span>
+                                </button>
+                                <button type="button" title="Switch Theme" class="theme-switch-button mob-sw js-theme-switch">
+                                    <span class="material-symbols-outlined dm-icon">
+                                        dark_mode
+                                    </span>
+                                    <span class="material-symbols-outlined lm-icon">
+                                        wb_sunny
+                                    </span>
+                                </button>
+                            </div>
+                        </div>
+
+                        <ul class="site-navigation">
+                            <li class="active">
+                                <a href="#" class="nav-link" title="Home">
+                                    Home
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="nav-link" title="About">
+                                    About
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="nav-link" title="Courses">
+                                    Courses
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="nav-link" title="Gallery">
+                                    Gallery
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="nav-link" title="Contact">
+                                    Contact
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                    <button type="button" title="Close Menu" class="cmn-btn-mnutgl mob-sw js-open-menu">
+                        <span class="material-symbols-outlined">
+                            menu
+                        </span>
+                    </button>
+
+                    <div class="header-sep"></div>
+
+                    <button type="button" title="Switch Theme" class="theme-switch-button desk-sw js-theme-switch">
+                        <span class="material-symbols-outlined dm-icon">
+                            dark_mode
+                        </span>
+                        <span class="material-symbols-outlined lm-icon">
+                            wb_sunny
+                        </span>
+                    </button>
                 </header>
             </div>
         </div>
+
+        <!-- Footer -->
+        <footer class="site-footer-outer">
+            <div class="site-container">
+                <div class="footer-items-cont">
+                    <div class="footer-item footer-item-1">
+                        <div>
+                            <div class="foopad-1">
+                                <h6 class="foo-title-s1">
+                                    Head Office
+                                </h6>
+                            </div>
+                            <p class="foo-dscr-txt-s1">
+                                Shop No. 3, B No.88, Near Shani Mandir Road, Ulhasnagar - 421001.
+                            </p>
+                        </div>
+                        <div class="foopad-2">
+                            <div class="foopad-1">
+                                <h6 class="foo-title-s1">
+                                    Call Us For Enquiry
+                                </h6>
+                            </div>
+                            <p class="foo-dscr-txt-s1">
+                                9619618742 <br />
+                                7558637355
+                            </p>
+                        </div>
+                    </div>
+                    <div class="footer-item footer-item-2">
+                        <div class="foopad-1">
+                            <h6 class="foo-title-s1">
+                                MSME Registered
+                            </h6>
+                        </div>
+                        <div class="msme-img-cnt">
+                            <div class="img-pos">
+                                <img src="public/images/msme-logo-black-bg.png" class="msme-img" width="200px" height="158.33px" alt="MSME" />
+                            </div>
+                            <img src="public/images/msme-logo-white-bg.png" class="msme-img" width="200px" height="158.33px" alt="MSME" />
+                        </div>
+                    </div>
+                    <div class="footer-item footer-item-3">
+                        <div class="foopad-1">
+                            <h6 class="foo-title-s1">
+                                Connect With Us
+                            </h6>
+                        </div>
+
+                        <ul class="foo-social-nav">
+                            <li>
+                                <a href="https://www.facebook.com/" title="Follow Us On Facebook" class="nav-link" target="_blank">
+                                    <img src="public/images/svg/social-media/facebook.svg" class="icon-img" width="50px" height="50px" alt="Facebook" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/" title="Follow Us On Instagram" class="nav-link" target="_blank">
+                                    <img src="public/images/svg/social-media/instagram.svg" class="icon-img" width="50px" height="50px" alt="Instagram" />
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="cpyrt-cont">
+                <div class="fcpad-1">
+                    <p class="foo-dscr-txt-s2">
+                        &copy; Copyright <b>Digital Nest Computer Institute.</b> All Rights Reserved.
+                    </p>
+                </div>
+                <div class="text-center">
+                    <p class="foo-dscr-txt-s2">
+                        Design & Develop By : 
+                        <b>
+                            <a href="https://github.com/gandharthakar" title="Gandhar Thakar" class="link" target="_blank">
+                                Gandhar Thakar
+                            </a>
+                        </b>.
+                    </p>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Scripts -->
+        <script type="module" src="public/js/base.js"></script>
     </body>
 </html>

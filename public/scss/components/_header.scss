@@ -1,5 +1,6 @@
 .site-header-outer {
-    background-color: var(--site-header-bgc);
+    background-color: var(--site-color-3);
+    overflow-x: hidden;
 }
 
 .site-header {
@@ -27,11 +28,171 @@
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 800px) {
     .header-logo-box {
         & .logo-img {
             width: 120px;
         }
+    }
+}
+
+// Navigtation
+
+.site-navigation {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    & .nav-link {
+        display: inline-block;
+        text-decoration: none;
+        border: 0px;
+        margin: 0px;
+        padding: 0px;
+        background-color: transparent;
+        color: var(--site-color-4);
+        font-size: 18px;
+        font-weight: 500;
+        position: relative;
+        transition: var(--site-standard-transition-delay);
+        &:hover, &:active, &.active {
+            text-decoration: none;
+            background-color: transparent;
+            color: var(--site-color-2);
+        }
+    }
+    & li.active {
+        & .nav-link {
+            background-color: transparent;
+            color: var(--site-color-2);
+        }
+    }
+}
+
+@media (max-width: 800px) {
+    .site-nav {
+        position: fixed;
+        right: -250px;
+        top: 0px;
+        width: 250px;
+        height: 100%;
+        background-color: var(--site-header-bgc);
+        z-index: 20;
+        overflow-y: auto;
+        transition: var(--site-standard-transition-delay);
+        &.active {
+            right: 0px;
+        }
+    }
+    .site-navigation {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px 0px;
+        padding: 20px;
+    }
+}
+
+// Theme Switch Button
+
+.theme-switch-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(0, 0, 0, 0.20);
+    margin: 0px;
+    padding: 0px;
+    width: 35px;
+    height: 35px;
+    font-size: 20px;
+    background-color: var(--site-color-3);
+    color: var(--site-color-4);
+    cursor: pointer;
+    border-radius: 50px;
+    transition: var(--site-standard-transition-delay);
+    & .dm-icon {
+        display: inline-block;
+    }
+    & .lm-icon {
+        display: none;
+    }
+    &.active {
+        & .dm-icon {
+            display: none;
+        }
+        & .lm-icon {
+            display: inline-block;
+        }
+    }
+    &:hover, &:active {
+        background-color: var(--site-color-1);
+        color: var(--site-color-3);
+    }
+}
+
+.header-sep {
+    display: inline-block;
+    width: 1px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.20);
+    margin: 0px 5px;
+}
+
+.cmn-btn-mnutgl {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(0, 0, 0, 0.20);
+    margin: 0px;
+    padding: 0px;
+    width: 35px;
+    height: 35px;
+    font-size: 20px;
+    font-weight: 200;
+    background-color: var(--site-color-3);
+    color: var(--site-color-4);
+    cursor: pointer;
+    border-radius: 50px;
+    transition: var(--site-standard-transition-delay);
+    &:hover, &:active {
+        background-color: var(--site-color-3);
+        color: var(--site-color-4);
+        border-color: rgba(0, 0, 0, 0.60);
+    }
+}
+
+.mob-sw {
+    display: none;
+}
+
+@media (max-width: 800px) {
+    .header-sep {
+        display: none;
+    }
+    .desk-sw {
+        display: none;
+    }
+    .mob-sw {
+        display: flex;
+    }
+}
+
+.mob-nav-hdr {
+    display: none;
+    padding: 20px 20px 10px 20px;
+}
+
+.mob-nav-hdr-inr {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0px 20px;
+}
+
+@media (max-width: 800px) {
+    .mob-nav-hdr {
+        display: block;
     }
 }
 
@@ -41,4 +202,23 @@
             opacity: 1;
         }
     }
+    & .theme-switch-button {
+        background-color: var(--site-color-dark-3);
+        border-color: rgba(255, 255, 255, 0.20);
+        &:hover, &:active {
+            background-color: var(--site-color-1);
+            color: var(--site-color-dark-1);
+        }
+    }
+    & .header-sep {
+        background-color: rgba(255, 255, 255, 0.25);
+    }
+    & .cmn-btn-mnutgl {
+        background-color: var(--site-color-dark-3);
+        border-color: rgba(255, 255, 255, 0.20);
+        &:hover, &:active {
+            border-color: rgba(255, 255, 255, 0.60);
+        }
+    }
 }
+
