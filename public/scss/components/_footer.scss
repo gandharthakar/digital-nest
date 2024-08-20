@@ -1,5 +1,6 @@
 .site-footer-outer {
     background-color: var(--site-color-3);
+    transition: var(--site-standard-transition-delay);
 }
 
 .footer-items-cont {
@@ -76,6 +77,7 @@
 .cpyrt-cont {
     background-color: var(--site-footer-bgc);
     padding: 10px 20px;
+    transition: var(--site-standard-transition-delay);
 }
 
 .fcpad-1 {

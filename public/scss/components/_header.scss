@@ -1,6 +1,7 @@
 .site-header-outer {
     background-color: var(--site-color-3);
     overflow-x: hidden;
+    transition: var(--site-standard-transition-delay);
 }
 
 .site-header {
