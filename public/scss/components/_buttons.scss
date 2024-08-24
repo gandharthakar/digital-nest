@@ -31,3 +31,43 @@
         font-size: 14px;
     }
 }
+
+// Busston Style 2
+
+.site-button-s2 {
+    display: inline-block;
+    text-decoration: none;
+    padding: 7px 15px;
+    margin: 0px;
+    border: 0px;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: var(--site-color-1);
+    color: var(--site-color-dark-1);
+    transition: var(--site-standard-transition-delay);
+    &.btn-block {
+        display: block;
+        width: 100%;
+    }
+    & .mn-icon, .str {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    &.btn-flex-between {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+        & .mn-icon, .str {
+            vertical-align: initial;
+        }
+    }
+    &:hover, &:active {
+        text-decoration: none;
+        background-color: var(--site-color-1-hover-dark);
+        color: var(--site-color-dark-1);
+        & .str {
+            text-decoration: underline;
+        }
+    }
+}

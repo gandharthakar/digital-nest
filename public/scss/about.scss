@@ -80,7 +80,7 @@
 
 .abtpg-mvsec-outer {
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
     background-color: var(--white);
     transition: var(--site-standard-transition-delay);
 }
@@ -182,8 +182,8 @@
 
 .abtpg-tlsec-outer {
     padding-top: 30px;
-    padding-bottom: 30px;
-    background-color: var(--white);
+    padding-bottom: 50px;
+    background-color: var(--site-color-3);
     transition: var(--site-standard-transition-delay);
 }
 
@@ -199,13 +199,18 @@
 }
 
 .abtpg-tlsec-item {
+    background-color: var(--white);
+    transition: var(--site-standard-transition-delay);
     & .team-member-image {
-        padding-bottom: 5px;
+        // padding-bottom: 5px;
         & img {
             display: block;
             width: 100%;
             height: auto;
         }
+    }
+    & .inner-body {
+        padding: 15px 20px;
     }
 }
 
@@ -242,5 +247,24 @@
     }
     .team-member-post {
         font-size: 14px;
+    }
+}
+
+// ISO Certify
+
+.abtpg-isosec-otr {
+    padding-top: 30px;
+    padding-bottom: 50px;
+    background-color: var(--white);
+    transition: var(--site-standard-transition-delay);
+}
+
+.apts-maxw {
+    max-width: 500px;
+    margin: 0px auto;
+    & img {
+        display: block;
+        width: 100%;
+        height: auto;
     }
 }

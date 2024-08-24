@@ -1,0 +1,122 @@
+.crspg-srch-outr {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: var(--site-color-3);
+  -webkit-transition: var(--site-standard-transition-delay);
+  -o-transition: var(--site-standard-transition-delay);
+  transition: var(--site-standard-transition-delay);
+}
+
+.crspg-pad-1 {
+  padding-bottom: 15px;
+}
+
+.crspg-ttl-1 {
+  display: inline-block;
+  padding: 0px;
+  margin: 0px;
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--site-color-4);
+  -webkit-transition: var(--site-standard-transition-delay);
+  -o-transition: var(--site-standard-transition-delay);
+  transition: var(--site-standard-transition-delay);
+}
+
+.crspg-maxw {
+  max-width: 400px;
+}
+
+.crsrrch-input {
+  display: block;
+  width: 100%;
+  padding: 10px 50px 10px 20px;
+  font-size: 16px;
+  margin: 0px;
+  border: 0px;
+  background-color: var(--white);
+  color: var(--site-color-4);
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+  -webkit-transition: var(--site-standard-transition-delay);
+  -o-transition: var(--site-standard-transition-delay);
+  transition: var(--site-standard-transition-delay);
+}
+.crsrrch-input:focus {
+  outline: 0;
+}
+
+.crsrrch-fsbtn {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-decoration: none;
+  background-color: transparent;
+  color: var(--site-color-4);
+  width: 38px;
+  height: 38px;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  font-size: 22px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  cursor: pointer;
+  -webkit-transition: var(--site-standard-transition-delay);
+  -o-transition: var(--site-standard-transition-delay);
+  transition: var(--site-standard-transition-delay);
+}
+.crsrrch-fsbtn:hover, .crsrrch-fsbtn:active {
+  text-decoration: none;
+  background-color: transparent;
+  color: var(--site-color-4);
+}
+.crsrrch-fsbtn:focus {
+  outline: 0;
+}
+
+@media (max-width: 767px) {
+  .crspg-ttl-1 {
+    font-size: 20px;
+  }
+}
+.crspg-crssec-outr {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: var(--white);
+  -webkit-transition: var(--site-standard-transition-delay);
+  -o-transition: var(--site-standard-transition-delay);
+  transition: var(--site-standard-transition-delay);
+}
+
+.crspg-crssec-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 20px;
+  -webkit-column-gap: 20px;
+     -moz-column-gap: 20px;
+          column-gap: 20px;
+}
+
+@media (max-width: 991px) {
+  .crspg-crssec-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 767px) {
+  .crspg-crssec-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/*# sourceMappingURL=course.css.map */

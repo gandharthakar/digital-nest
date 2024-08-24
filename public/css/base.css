@@ -74,6 +74,10 @@ body {
   text-align: right;
 }
 
+.pos-rel {
+  position: relative;
+}
+
 .site-button-s1 {
   display: inline-block;
   text-decoration: none;
@@ -107,6 +111,55 @@ body {
     font-size: 14px;
   }
 }
+.site-button-s2 {
+  display: inline-block;
+  text-decoration: none;
+  padding: 7px 15px;
+  margin: 0px;
+  border: 0px;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: var(--site-color-1);
+  color: var(--site-color-dark-1);
+  -webkit-transition: var(--site-standard-transition-delay);
+  -o-transition: var(--site-standard-transition-delay);
+  transition: var(--site-standard-transition-delay);
+}
+.site-button-s2.btn-block {
+  display: block;
+  width: 100%;
+}
+.site-button-s2 .mn-icon, .site-button-s2 .str {
+  display: inline-block;
+  vertical-align: middle;
+}
+.site-button-s2.btn-flex-between {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+}
+.site-button-s2.btn-flex-between .mn-icon, .site-button-s2.btn-flex-between .str {
+  vertical-align: initial;
+}
+.site-button-s2:hover, .site-button-s2:active {
+  text-decoration: none;
+  background-color: var(--site-color-1-hover-dark);
+  color: var(--site-color-dark-1);
+}
+.site-button-s2:hover .str, .site-button-s2:active .str {
+  text-decoration: underline;
+}
+
 .site-cmnttl-s1 {
   display: inline-block;
   padding: 0px;
@@ -133,6 +186,68 @@ body {
 @media (max-width: 767px) {
   .site-cmnttl-s1 {
     font-size: 20px;
+  }
+}
+.course-card-item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 100%;
+  background-color: var(--site-color-3);
+  -webkit-transition: background-color var(--site-standard-transition-delay);
+  -o-transition: background-color var(--site-standard-transition-delay);
+  transition: background-color var(--site-standard-transition-delay);
+}
+.course-card-item .thumb-cont img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.course-card-item .main-content {
+  padding: 15px 20px 0px 20px;
+}
+
+.ccipad-1 {
+  padding-bottom: 7px;
+}
+
+.ccipad-2 {
+  padding-bottom: 15px;
+}
+
+.cci-title {
+  display: block;
+  padding: 0px;
+  margin: 0px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.cci-description {
+  display: block;
+  margin: 0px;
+  padding: 0px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.ccicta-cont {
+  margin-top: auto;
+  padding: 0px 20px 15px 20px;
+}
+
+@media (max-width: 767px) {
+  .cci-title {
+    font-size: 18px;
+  }
+  .cci-description {
+    font-size: 14px;
   }
 }
 .site-header-outer {

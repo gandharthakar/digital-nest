@@ -1,0 +1,55 @@
+.course-card-item {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    background-color: var(--site-color-3);
+    transition: background-color var(--site-standard-transition-delay);
+    & .thumb-cont {
+        & img {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+    }
+    & .main-content {
+        padding: 15px 20px 0px 20px;
+    }
+}
+
+.ccipad-1 {
+    padding-bottom: 7px;
+}
+
+.ccipad-2 {
+    padding-bottom: 15px;
+}
+
+.cci-title {
+    display: block;
+    padding: 0px;
+    margin: 0px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.cci-description {
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.ccicta-cont {
+    margin-top: auto;
+    padding: 0px 20px 15px 20px;
+}
+
+@media (max-width: 767px) {
+    .cci-title {
+        font-size: 18px;
+    }
+    .cci-description {
+        font-size: 14px;
+    }
+}

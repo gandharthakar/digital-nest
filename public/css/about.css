@@ -99,7 +99,7 @@
 }
 .abtpg-mvsec-outer {
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 50px;
   background-color: var(--white);
   -webkit-transition: var(--site-standard-transition-delay);
   -o-transition: var(--site-standard-transition-delay);
@@ -206,8 +206,8 @@
 }
 .abtpg-tlsec-outer {
   padding-top: 30px;
-  padding-bottom: 30px;
-  background-color: var(--white);
+  padding-bottom: 50px;
+  background-color: var(--site-color-3);
   -webkit-transition: var(--site-standard-transition-delay);
   -o-transition: var(--site-standard-transition-delay);
   transition: var(--site-standard-transition-delay);
@@ -226,13 +226,19 @@
   padding-bottom: 20px;
 }
 
-.abtpg-tlsec-item .team-member-image {
-  padding-bottom: 5px;
+.abtpg-tlsec-item {
+  background-color: var(--white);
+  -webkit-transition: var(--site-standard-transition-delay);
+  -o-transition: var(--site-standard-transition-delay);
+  transition: var(--site-standard-transition-delay);
 }
 .abtpg-tlsec-item .team-member-image img {
   display: block;
   width: 100%;
   height: auto;
+}
+.abtpg-tlsec-item .inner-body {
+  padding: 15px 20px;
 }
 
 .team-member-name {
@@ -268,6 +274,24 @@
   .team-member-post {
     font-size: 14px;
   }
+}
+.abtpg-isosec-otr {
+  padding-top: 30px;
+  padding-bottom: 50px;
+  background-color: var(--white);
+  -webkit-transition: var(--site-standard-transition-delay);
+  -o-transition: var(--site-standard-transition-delay);
+  transition: var(--site-standard-transition-delay);
+}
+
+.apts-maxw {
+  max-width: 500px;
+  margin: 0px auto;
+}
+.apts-maxw img {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 /*# sourceMappingURL=about.css.map */
