@@ -26,6 +26,9 @@ img {
     --site-color-3: #f4f4f4;
     --site-color-4: #111111;
     --white: #ffffff;
+    --black: #000000;
+    --white-constant: #ffffff;
+    --black-constant: #000000;
     --site-color-dark-1: #f4f4f4;
     --site-color-dark-2: #111111;
     --site-color-dark-3: #292929;
@@ -48,6 +51,7 @@ body {
     --site-header-bgc: var(--site-color-dark-2);
     --site-footer-bgc: var(--site-color-dark-3);
     --white: #000000;
+    --black: #ffffff;
 }
 
 .site-container {

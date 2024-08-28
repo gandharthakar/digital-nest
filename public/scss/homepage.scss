@@ -142,7 +142,7 @@
 }
 
 .hmpg-wpad-1 {
-    padding-bottom: 50px;
+    padding-bottom: 30px;
 }
 
 .hmpg-whycu-grid {
@@ -240,3 +240,59 @@
         font-size: 14px;
     }
 }
+
+// Popular Courses
+
+.pcsec-outer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: var(--white);
+    transition: var(--site-standard-transition-delay);
+}
+
+.pcsec-grid-cont {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 20px;
+}
+
+.pcsec-pad-1 {
+    padding-bottom: 30px;
+}
+
+@media (max-width: 991px) {
+    .pcsec-grid-cont {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 767px) {
+    .pcsec-pad-1 {
+        padding-bottom: 20px;
+    }
+    .pcsec-grid-cont {
+        grid-template-columns: 1fr;
+    }
+}
+
+// Testimonials
+
+.testisec-outer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: var(--site-color-2);
+    transition: var(--site-standard-transition-delay);
+}
+
+.testisec-pad-1 {
+    padding-bottom: 30px;
+}
+
+@media (max-width: 767px) {
+    .testisec-pad-1 {
+        padding-bottom: 20px;
+    }
+}
+
+@import './components/testimonials';

@@ -5,6 +5,7 @@
     background-color: var(--site-color-3);
     transition: background-color var(--site-standard-transition-delay);
     & .thumb-cont {
+        padding: 15px 20px 0px 20px;
         & img {
             display: block;
             width: 100%;
