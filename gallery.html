@@ -20,8 +20,9 @@
 
         <!-- Stylesheet CSS -->
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
         <link rel="stylesheet" href="public/css/base.min.css" />
-        <link rel="stylesheet" href="public/css/homepage.min.css" />
+        <link rel="stylesheet" href="public/css/gallery.min.css" />
     </head>
     <body>
         <!-- Header -->
@@ -108,7 +109,17 @@
             </div>
         </div>
 
-        <h1>Gallery Page</h1>
+        <section class="gallery-sec-outer">
+            <div class="site-container">
+                <div class="gallery-grid js-galgrid">
+                    <!-- <div class="gallery-grid-item js-galgrid-item">
+                        <a href="https://placehold.co/500x350@3x.png" data-fancybox="gallery" data-src="https://placehold.co/500x350@3x.png" data-caption="Caption Text 1">
+                            <img src="https://placehold.co/500x350" width="500px" height="350px" alt="Gallery Photo" />
+                        </a>
+                    </div> -->
+                </div>
+            </div>
+        </section>
 
         <!-- Footer -->
         <footer class="site-footer-outer">
@@ -192,6 +203,10 @@
         </footer>
 
         <!-- Scripts -->
+        <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+        <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+        <script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
         <script type="module" src="public/js/base.js"></script>
+        <script src="public/js/pages/gallery/gallery.js"></script>
     </body>
 </html>
