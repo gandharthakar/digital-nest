@@ -62,12 +62,34 @@
             vertical-align: initial;
         }
     }
+    &.flex-1 {
+        flex: 1;
+    }
+    &.btn-flex {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        & .mn-icon, .str {
+            vertical-align: initial;
+        }
+    }
+    &.min-w-1 {
+        min-width: 160px;
+    }
     &:hover, &:active {
         text-decoration: none;
         background-color: var(--site-color-1-hover-dark);
         color: var(--site-color-dark-1);
         & .str {
             text-decoration: underline;
+        }
+    }
+    &.theme-color-2 {
+        background-color: var(--site-color-2);
+        color: var(--site-color-dark-1);
+        &:hover, &:active {
+            background-color: var(--site-color-2-hover-dark);
+            color: var(--site-color-dark-1);
         }
     }
 }

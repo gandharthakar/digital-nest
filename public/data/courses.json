@@ -1,0 +1,53 @@
+[
+    {
+        "course_id": "DNCI_C01",
+        "course_name": "MS-CIT",
+        "course_summary": "The MS-CIT course teaches essential computer skills, including basic IT, internet usage, and office applications, enhancing digital literacy.",
+        "course_cover_photo": "mscit-course-thumb.jpg",
+        "course_duration": "6 Months",
+        "course_batch_time": "N/A",
+        "course_fees": "N/A",
+        "course_tutor": "Magesh Mudaliyar",
+        "course_mode": "Online & Offline Both.",
+        "course_about": "The MS-CIT course plays a vital role in bridging the digital divide in Maharashtra. By equipping individuals with essential IT skills, it fosters a more informed, capable, and digitally literate society, paving the way for future growth and opportunities in the ever-evolving digital world. Whether for personal growth or professional advancement, the MS-CIT course is a valuable stepping stone in today’s technology-driven landscape.",
+        "course_syllabus": [
+            "Syllabs Item 1",
+            "Syllabs Item 2",
+            "Syllabs Item 3"
+        ]
+    },
+    {
+        "course_id": "DNCI_C02",
+        "course_name": "Tally With GST",
+        "course_summary": "The Tally course provides comprehensive training in accounting software, covering financial management, inventory control, and GST compliance for efficient bookkeeping.",
+        "course_cover_photo": "tally-course-thumb.jpg",
+        "course_duration": "3 Months",
+        "course_batch_time": "N/A",
+        "course_fees": "N/A",
+        "course_tutor": "Aarti Gupta",
+        "course_mode": "Online & Offline Both.",
+        "course_about": "The Tally with GST course serves as a vital resource for individuals looking to build a career in finance and accounting. By imparting essential skills in Tally ERP 9 and a thorough understanding of GST regulations, the course prepares participants to navigate the complexities of modern financial management. Whether for personal growth, career advancement, or business management, this course offers invaluable knowledge and skills for today’s dynamic economic landscape. In an era where digital proficiency is key, mastering Tally with GST positions individuals for success in a technology-driven world.",
+        "course_syllabus": [
+            "Lorem ipsum dolor sit amet consectetur",
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, quidem."
+        ]
+    },
+    {
+        "course_id": "DNCI_C03",
+        "course_name": "Cyber Security",
+        "course_summary": "The Cyber Security course covers protecting digital systems, understanding threats, and implementing defenses, ensuring data safety and network integrity.",
+        "course_cover_photo": "cyber-security-course-thumb.jpg",
+        "course_duration": "6 Months",
+        "course_batch_time": "N/A",
+        "course_fees": "N/A",
+        "course_tutor": "Magesh Mudaliyar",
+        "course_mode": "Online & Offline Both.",
+        "course_about": "The Cyber Security course plays a crucial role in preparing individuals to tackle the growing challenges of cyber threats in today’s digital landscape. By imparting essential knowledge and skills, the course empowers participants to safeguard information, ensuring a secure environment for individuals and organizations alike. With a strong emphasis on practical application and real-world relevance, this course serves as a foundational step for those aspiring to build a successful career in cybersecurity. As technology continues to advance, the importance of robust cybersecurity measures will only grow, making this course a valuable investment in a secure future.",
+        "course_syllabus": [
+            "Lorem ipsum dolor sit amet consectetur",
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, quidem."
+        ]
+    }
+]

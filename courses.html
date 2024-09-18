@@ -115,13 +115,14 @@
                     <h1 class="crspg-ttl-1">Search Course</h1>
                 </div>
                 <div class="crspg-maxw">
-                    <form class="pos-rel">
+                    <form class="pos-rel" id="search_form">
                         <input 
                             type="text" 
                             name="course_search" 
                             id="course_search_input" 
                             class="crsrrch-input" 
-                            placeholder="Search ..."
+                            placeholder="Search ..." 
+                            autocomplete="off"
                         />
                         <button type="submit" title="Search" class="crsrrch-fsbtn">
                             <span class="material-symbols-outlined">
@@ -136,7 +137,8 @@
         <!-- Course Boxes -->
         <section class="crspg-crssec-outr">
             <div class="site-container">
-                <div class="crspg-crssec-grid">
+                <div class="crspg-crssec-grid" id="course_grid">
+                    <!-- 
                     <div class="course-card-item" title="MS-CIT">
                         <div class="thumb-cont">
                             <img src="public/images/course-thumb/final/mscit-course-thumb.jpg" width="700px" height="500px" alt="Course Thumb" />
@@ -154,7 +156,13 @@
                             </div>
                         </div>
                         <div class="ccicta-cont">
-                            <a href="#" title="Enquiry Now" class="site-button-s2 btn-flex-between text-center">
+                            <a href="course-details.html?course_id=DNCI01" title="View Details" class="site-button-s2 min-w-1 btn-flex-between flex-1 text-center theme-color-2">
+                                <span class="str">View Details</span>
+                                <span class="material-symbols-outlined mn-icon">
+                                    keyboard_arrow_right
+                                </span>
+                            </a>
+                            <a href="#" title="Enquiry Now" class="site-button-s2 min-w-1 btn-flex-between flex-1 text-center" target="_blank">
                                 <span class="str">Enquiry Now</span>
                                 <span class="material-symbols-outlined mn-icon">
                                     keyboard_arrow_right
@@ -179,7 +187,13 @@
                             </div>
                         </div>
                         <div class="ccicta-cont">
-                            <a href="#" title="Enquiry Now" class="site-button-s2 btn-flex-between text-center">
+                            <a href="course-details.html?course_id=DNCI02" title="View Details" class="site-button-s2 min-w-1 btn-flex-between flex-1 text-center theme-color-2">
+                                <span class="str">View Details</span>
+                                <span class="material-symbols-outlined mn-icon">
+                                    keyboard_arrow_right
+                                </span>
+                            </a>
+                            <a href="#" title="Enquiry Now" class="site-button-s2 min-w-1 btn-flex-between flex-1 text-center" target="_blank">
                                 <span class="str">Enquiry Now</span>
                                 <span class="material-symbols-outlined mn-icon">
                                     keyboard_arrow_right
@@ -204,7 +218,13 @@
                             </div>
                         </div>
                         <div class="ccicta-cont">
-                            <a href="#" title="Enquiry Now" class="site-button-s2 btn-flex-between text-center">
+                            <a href="course-details.html?course_id=DNCI03" title="View Details" class="site-button-s2 min-w-1 btn-flex-between flex-1 text-center theme-color-2">
+                                <span class="str">View Details</span>
+                                <span class="material-symbols-outlined mn-icon">
+                                    keyboard_arrow_right
+                                </span>
+                            </a>
+                            <a href="#" title="Enquiry Now" class="site-button-s2 min-w-1 btn-flex-between flex-1 text-center" target="_blank">
                                 <span class="str">Enquiry Now</span>
                                 <span class="material-symbols-outlined mn-icon">
                                     keyboard_arrow_right
@@ -212,6 +232,7 @@
                             </a>
                         </div>
                     </div>
+                    -->
                 </div>
             </div>
         </section>
@@ -299,5 +320,6 @@
 
         <!-- Scripts -->
         <script type="module" src="public/js/base.js"></script>
+        <script src="public/js/pages/course/course.js"></script>
     </body>
 </html>
