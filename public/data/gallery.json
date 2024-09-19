@@ -1,27 +1,27 @@
 [
     {
         "gpid": 1,
-        "gallery_photo_main": "https://placehold.co/500x350@3x.png",
-        "gallery_photo_thumb": "https://placehold.co/500x350",
-        "gallery_photo_caption_text": "Caption Text 1"
+        "gallery_photo_main": "public/images/gallery/dnci-gal-photo-1.jpg",
+        "gallery_photo_thumb": "public/images/gallery/dnci-gal-photo-1.jpg",
+        "gallery_photo_caption_text": "Mangal Murti Mitra Mandal - Digital Next Computer Institute"
     },
     {
         "gpid": 2,
-        "gallery_photo_main": "https://placehold.co/500x500@3x.png",
-        "gallery_photo_thumb": "https://placehold.co/500x500",
-        "gallery_photo_caption_text": "Caption Text 2"
+        "gallery_photo_main": "public/images/gallery/dnci-gal-photo-2.jpg",
+        "gallery_photo_thumb": "public/images/gallery/dnci-gal-photo-2.jpg",
+        "gallery_photo_caption_text": "Ganpati Bappa Morya - Digital Next Computer Institute"
     },
     {
         "gpid": 3,
-        "gallery_photo_main": "https://placehold.co/500x600@3x.png",
-        "gallery_photo_thumb": "https://placehold.co/500x600",
-        "gallery_photo_caption_text": "Caption Text 3"
+        "gallery_photo_main": "public/images/gallery/dnci-gal-photo-3.jpg",
+        "gallery_photo_thumb": "public/images/gallery/dnci-gal-photo-3.jpg",
+        "gallery_photo_caption_text": "Digital Nest Computer Institute - Chinchpada Office"
     },
     {
         "gpid": 4,
-        "gallery_photo_main": "https://placehold.co/500x600@3x.png",
-        "gallery_photo_thumb": "https://placehold.co/500x600",
-        "gallery_photo_caption_text": "Caption Text 4"
+        "gallery_photo_main": "public/images/gallery/dnci-gal-photo-4.jpg",
+        "gallery_photo_thumb": "public/images/gallery/dnci-gal-photo-4.jpg",
+        "gallery_photo_caption_text": "DNCI Office"
     },
     {
         "gpid": 5,

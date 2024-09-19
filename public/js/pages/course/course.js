@@ -4,7 +4,7 @@ const searchForm = document.querySelector("#search_form");
 
 const prepCourseBox = (data) => {
     let template = `
-        <div class="course-card-item" title="MS-CIT">
+        <div class="course-card-item" title="${data.course_name}">
             <div class="thumb-cont">
                 <img src="public/images/course-thumb/final/${data.course_cover_photo}" width="700px" height="500px" alt="Course Thumb" />
             </div>

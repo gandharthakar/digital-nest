@@ -1,0 +1,144 @@
+@import './partials/variables';
+
+.glcf-modal-backdrop {
+    display: none;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 30;
+    backdrop-filter: blur(3px);
+    transition: var(--site-standard-transition-delay);
+}
+
+.glcf-modal-main {
+    display: none;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin: 20px;
+    max-width: 600px;
+    overflow-y: auto;
+    z-index: 35;
+    background-color: var(--white);
+    width: calc(100% - 40px);
+    max-height: calc(100% - 40px);
+    transform: translate(calc(-50% - 20px), calc(-50% - 20px));
+    transition: var(--site-standard-transition-delay);
+}
+
+.glcf-modal-outer {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.glcf-modal-imgcnt {
+    max-width: 250px;
+    min-width: 250px;
+    background-color: var(--white);
+    padding: 20px;
+    transition: var(--site-standard-transition-delay);
+    & img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.glcf-modal-cont {
+    flex: 1;
+    padding: 70px 30px;
+    background-color: var(--site-color-3);
+    transition: var(--site-standard-transition-delay);
+}
+
+.glcf-mdlpad-1 {
+    padding-bottom: 5px;
+}
+
+.glcf-mdlpad-2 {
+    padding-bottom: 15px;
+}
+
+.glcf-mdlttl-1 {
+    display: block;
+    padding: 0px;
+    margin: 0px;
+    font-size: 30px;
+    font-weight: 700;
+    background: #015598;
+    background: linear-gradient(to right, #015598 0%, #ED1C24 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.glcf-mdldscr-1 {
+    display: block;
+    padding: 0px;
+    margin: 0px;
+    font-size: 16px;
+    line-height: 26px;
+    font-family: $font_0;
+    color: var(--site-color-4);
+    transition: var(--site-standard-transition-delay);
+}
+
+.glcf-modal-cbpos {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    z-index: 5;
+}
+
+.glcf-modal-cbtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    background-color: transparent;
+    color: var(--black);
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    border-radius: 0px;
+    transition: var(--site-standard-transition-delay);
+    &:hover, &:active {
+        background-color: transparent;
+        color: var(--black);
+    }
+}
+
+@media (max-width: 767px) {
+    .glcf-modal-outer {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .glcf-modal-imgcnt {
+        width: 100%;
+        max-width: none;
+        min-width: auto;
+        text-align: center;
+        & img {
+            display: inline-block;
+            max-width: 150px;
+        }
+    }
+    .glcf-modal-cont {
+        flex: auto;
+        width: 100%;
+        padding: 30px 20px;
+    }
+    .glcf-mdlttl-1 {
+        font-size: 22px;
+    }
+    .glcf-mdldscr-1 {
+        font-size: 14px;
+        line-height: 24px;
+    }
+}
