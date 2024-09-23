@@ -13,11 +13,15 @@ const courseEnqLink = document.querySelector("#course_enq_link");
 const urlParams = new URLSearchParams(window.location.search);
 const course_id = urlParams.get('course_id');
 
+const genImg = (img) => {
+    return img ? `public/images/course-thumb/final/${img}` : 'https://placehold.co/700x500?text=Course+Cover+Photo'
+}
+
 const getCourseInfo = async (cid) => {
     const resp = await fetch(`public/data/courses.json`);
     const body = await resp.json();
     let res = body.filter((item) => item.course_id === cid);
-    courseCoverPhoto.src = `public/images/course-thumb/final/${res[0].course_cover_photo}`;
+    courseCoverPhoto.src = `${genImg(res[0].course_cover_photo)}`;
     courseName.innerHTML = `${res[0].course_name}`;
     courseSummary.innerHTML = `${res[0].course_summary}`;
     courseDuration.innerHTML = `${res[0].course_duration}`;

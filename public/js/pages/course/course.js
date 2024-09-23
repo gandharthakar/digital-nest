@@ -2,11 +2,15 @@ const gridCont = document.querySelector("#course_grid");
 const searchInput = document.querySelector("#course_search_input");
 const searchForm = document.querySelector("#search_form");
 
+const genImg = (img) => {
+    return img ? `public/images/course-thumb/final/${img}` : 'https://placehold.co/700x500?text=Course+Cover+Photo'
+}
+
 const prepCourseBox = (data) => {
     let template = `
         <div class="course-card-item" title="${data.course_name}">
             <div class="thumb-cont">
-                <img src="public/images/course-thumb/final/${data.course_cover_photo}" width="700px" height="500px" alt="Course Thumb" />
+                <img src="${genImg(data.course_cover_photo)}" width="700px" height="500px" alt="Course Thumb" />
             </div>
             <div class="main-content">
                 <div class="ccipad-1">
@@ -42,7 +46,8 @@ const prepCourseBox = (data) => {
 const getCourses = async () => {
     const resp = await fetch(`public/data/courses.json`);
     const body = await resp.json();
-    for(let i = 0; i < body.reverse().length; i++) {
+    const rev_body = body.reverse();
+    for(let i = 0; i < rev_body.length; i++) {
         let box = prepCourseBox(body[i]);
         gridCont.insertAdjacentHTML("afterbegin", box);
     }
@@ -56,7 +61,8 @@ searchInput.addEventListener('keydown', async (e) => {
         gridCont.innerHTML = '';
         const resp = await fetch(`public/data/courses.json`);
         const body = await resp.json();
-        for(let i = 0; i < body.reverse().length; i++) {
+        const rev_body = body.reverse();
+        for(let i = 0; i < rev_body.length; i++) {
             let box = prepCourseBox(body[i]);
             gridCont.insertAdjacentHTML("afterbegin", box);
         }

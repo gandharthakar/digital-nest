@@ -1,0 +1,38 @@
+[
+    {
+        "testimonial_id": "DNCI_TES_01",
+        "testimonial_content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore blanditiis consequuntur earum mollitia qui sint alias reprehenderit, quaerat accusamus. Dolorem.",
+        "testimonial_user_name": "Ajay Patil",
+        "testimonial_user_designation": "Student"
+    },
+    {
+        "testimonial_id": "DNCI_TES_02",
+        "testimonial_content": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta, doloribus molestiae, maxime aspernatur harum, aliquid voluptatem et doloremque at deleniti fugit ex neque qui rerum corporis sint repudiandae distinctio quo!",
+        "testimonial_user_name": "Pralhad Yadav",
+        "testimonial_user_designation": "Student"
+    },
+    {
+        "testimonial_id": "DNCI_TES_03",
+        "testimonial_content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis deserunt eaque molestiae fuga voluptatem modi.",
+        "testimonial_user_name": "Joseph D'Souza",
+        "testimonial_user_designation": "Student"
+    },
+    {
+        "testimonial_id": "DNCI_TES_04",
+        "testimonial_content": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae consectetur recusandae iure ipsum nihil, voluptates veritatis dicta voluptatibus, asperiores natus ratione cum cupiditate debitis sit?",
+        "testimonial_user_name": "Meera Desai",
+        "testimonial_user_designation": "Student"
+    },
+    {
+        "testimonial_id": "DNCI_TES_05",
+        "testimonial_content": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit, nulla.",
+        "testimonial_user_name": "Prachi Shaha",
+        "testimonial_user_designation": "Student"
+    },
+    {
+        "testimonial_id": "DNCI_TES_06",
+        "testimonial_content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat quisquam aspernatur nemo facilis corporis doloribus enim excepturi optio?",
+        "testimonial_user_name": "Sonal Chavhan",
+        "testimonial_user_designation": "Student"
+    }
+]
