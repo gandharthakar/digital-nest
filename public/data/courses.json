@@ -10,7 +10,8 @@
         "course_tutor": "Magesh, Aarti & Kirti",
         "course_mode": "Online & Offline Both.",
         "course_about": "The MS-CIT course plays a vital role in bridging the digital divide in Maharashtra. By equipping individuals with essential IT skills, it fosters a more informed, capable, and digitally literate society, paving the way for future growth and opportunities in the ever-evolving digital world. Whether for personal growth or professional advancement, the MS-CIT course is a valuable stepping stone in today’s technology-driven landscape.",
-        "course_syllabus": ["Currently not available."]
+        "course_syllabus": ["Currently not available."],
+        "hightlight_in_homepae": true
     },
     {
         "course_id": "DNCI_C02",
@@ -23,7 +24,8 @@
         "course_tutor": "Aarti",
         "course_mode": "Online & Offline Both.",
         "course_about": "The Tally with GST course serves as a vital resource for individuals looking to build a career in finance and accounting. By imparting essential skills in Tally ERP 9 and a thorough understanding of GST regulations, the course prepares participants to navigate the complexities of modern financial management. Whether for personal growth, career advancement, or business management, this course offers invaluable knowledge and skills for today’s dynamic economic landscape. In an era where digital proficiency is key, mastering Tally with GST positions individuals for success in a technology-driven world.",
-        "course_syllabus": ["Currently not available."]
+        "course_syllabus": ["Currently not available."],
+        "hightlight_in_homepae": false
     },
     {
         "course_id": "DNCI_C03",
@@ -36,7 +38,8 @@
         "course_tutor": "Aarti",
         "course_mode": "Online & Offline Both.",
         "course_about": "Tally Prime is a comprehensive business management software solution designed to streamline operations for small and medium-sized enterprises (SMEs). It offers a wide range of features, including accounting, inventory management, payroll processing, and customer relationship management (CRM). Tally Prime is known for its user-friendly interface and ease of use, making it accessible to businesses of all sizes.",
-        "course_syllabus": ["Currently not available."]
+        "course_syllabus": ["Currently not available."],
+        "hightlight_in_homepae": true
     },
     {
         "course_id": "DNCI_C04",
@@ -49,7 +52,8 @@
         "course_tutor": "Magesh & Aarti",
         "course_mode": "Online only.",
         "course_about": "Advance Excel is a powerful tool for data analysis and manipulation. It offers advanced features like pivot tables, macros, and data validation, allowing you to perform complex calculations, automate tasks, and create dynamic reports. These functions are essential for professionals in fields like finance, accounting, and data science.",
-        "course_syllabus": ["Currently not available."]
+        "course_syllabus": ["Currently not available."],
+        "hightlight_in_homepae": false
     },
     {
         "course_id": "DNCI_C05",
@@ -62,7 +66,8 @@
         "course_tutor": "Abhishek & Shailesh",
         "course_mode": "Online only.",
         "course_about": "The Cyber Security course plays a crucial role in preparing individuals to tackle the growing challenges of cyber threats in today’s digital landscape. By imparting essential knowledge and skills, the course empowers participants to safeguard information, ensuring a secure environment for individuals and organizations alike. With a strong emphasis on practical application and real-world relevance, this course serves as a foundational step for those aspiring to build a successful career in cybersecurity. As technology continues to advance, the importance of robust cybersecurity measures will only grow, making this course a valuable investment in a secure future.",
-        "course_syllabus": ["Currently not available."]
+        "course_syllabus": ["Currently not available."],
+        "hightlight_in_homepae": true
     },
     {
         "course_id": "DNCI_C06",
@@ -75,7 +80,8 @@
         "course_tutor": "Gandhar Thakar",
         "course_mode": "Online only.",
         "course_about": "Web development encompasses the process of building and maintaining websites. It includes front-end development, which focuses on user interface and experience using HTML, CSS, and JavaScript, and back-end development, which manages server-side logic and databases. Effective web development ensures sites are responsive, accessible, and optimized for performance and SEO.",
-        "course_syllabus": ["HTML basic to advance", "CSS basic to advance", "JavaScript basic to intermediate.", "4 Asignments", "1 Final Project"]
+        "course_syllabus": ["HTML basic to advance", "CSS basic to advance", "JavaScript basic to intermediate.", "4 Asignments", "1 Final Project"],
+        "hightlight_in_homepae": false
     },
     {
         "course_id": "DNCI_C07",
@@ -88,7 +94,8 @@
         "course_tutor": "Gandhar Thakar",
         "course_mode": "Online only.",
         "course_about": "Web development encompasses the process of building and maintaining websites. It includes front-end development, which focuses on user interface and experience using HTML, CSS, and JavaScript, and back-end development, which manages server-side logic and databases. Effective web development ensures sites are responsive, accessible, and optimized for performance and SEO.",
-        "course_syllabus": ["JavaScript basic to Advance.", "jQuery", "Git", "Bootstrap", "4 Asignments", "2 Final Project"]
+        "course_syllabus": ["JavaScript basic to Advance.", "jQuery", "Git", "Bootstrap", "4 Asignments", "2 Final Project"],
+        "hightlight_in_homepae": false
     },
     {
         "course_id": "DNCI_C08",
@@ -101,7 +108,8 @@
         "course_tutor": "Gandhar Thakar",
         "course_mode": "Online only.",
         "course_about": "Web development encompasses the process of building and maintaining websites. It includes front-end development, which focuses on user interface and experience using HTML, CSS, and JavaScript, and back-end development, which manages server-side logic and databases. Effective web development ensures sites are responsive, accessible, and optimized for performance and SEO.",
-        "course_syllabus": ["MongoDB", "React", "Express JS", "Node JS", "JWT Tokens", "4 Asignments", "2 Final Project"]
+        "course_syllabus": ["MongoDB", "React", "Express JS", "Node JS", "JWT Tokens", "4 Asignments", "2 Final Project"],
+        "hightlight_in_homepae": false
     },
     {
         "course_id": "DNCI_C09",
@@ -114,7 +122,8 @@
         "course_tutor": "Magesh",
         "course_mode": "Online only.",
         "course_about": "Desktop Publishing (DTP) is the process of using software to create visually appealing documents for print and digital media. It combines text, graphics, and layout design to produce materials like brochures, magazines, and newsletters. DTP enhances communication, allowing for professional-quality presentations, while enabling users to control design elements and formats efficiently.",
-        "course_syllabus": ["Currently not available."]
+        "course_syllabus": ["Currently not available."],
+        "hightlight_in_homepae": false
     },
     {
         "course_id": "DNCI_C10",
@@ -127,7 +136,8 @@
         "course_tutor": "Magesh & Aarti",
         "course_mode": "Online only.",
         "course_about": "An internet course is a structured learning program that is accessed and completed online. It can cover a wide range of topics, from basic computer skills to advance. We offer flexibility and convenience for learners, allowing you to study at your own pace.",
-        "course_syllabus": ["Currently not available."]
+        "course_syllabus": ["Currently not available."],
+        "hightlight_in_homepae": false
     },
     {
         "course_id": "DNCI_C11",
@@ -140,7 +150,8 @@
         "course_tutor": "Magesh",
         "course_mode": "Online only.",
         "course_about": "Digital marketing is the promotion of products or brands through digital channels. It includes search engine optimization (SEO), pay-per-click (PPC) advertising, social media marketing, content marketing, email marketing, and more. Digital marketing allows businesses to reach a wider audience, track their marketing performance, and measure their return on investment.",
-        "course_syllabus": ["Currently not available."]
+        "course_syllabus": ["Currently not available."],
+        "hightlight_in_homepae": false
     },
     {
         "course_id": "DNCI_C12",
@@ -153,7 +164,8 @@
         "course_tutor": "Magesh, Aarti & Gandhar",
         "course_mode": "Online & Offline Both.",
         "course_about": "Career courses provide structured learning experiences to help individuals develop skills, knowledge, and competencies needed for professional success. They can range from general career development workshops to specialized training programs in specific fields.",
-        "course_syllabus": ["Currently not available."]
+        "course_syllabus": ["Currently not available."],
+        "hightlight_in_homepae": false
     },
     {
         "course_id": "DNCI_C13",
@@ -166,7 +178,8 @@
         "course_tutor": "Magesh & Aarti",
         "course_mode": "Online & Offline Both.",
         "course_about": "Advanced Diploma Courses are specialized programs designed to enhance your existing knowledge and skills in a particular field. They typically build upon foundational diploma or degree qualifications, providing in-depth expertise and practical training.",
-        "course_syllabus": ["Currently not available."]
+        "course_syllabus": ["Currently not available."],
+        "hightlight_in_homepae": false
     },
     {
         "course_id": "DNCI_C14",
@@ -179,7 +192,8 @@
         "course_tutor": "Magesh & Aarti",
         "course_mode": "Online only.",
         "course_about": "Graphics Design is the art and craft of creating visual communication. It involves combining text, images, and layout to convey a message effectively. Designers use typography, color theory, and composition to create visually appealing and impactful designs for various purposes, such as print media, websites, and digital interfaces.",
-        "course_syllabus": ["Currently not available."]
+        "course_syllabus": ["Currently not available."],
+        "hightlight_in_homepae": false
     },
     {
         "course_id": "DNCI_C15",
@@ -192,6 +206,7 @@
         "course_tutor": "Magesh",
         "course_mode": "Online & Offline Both.",
         "course_about": "Hardware and networking are the foundation of modern technology. Hardware components like computers, servers, and routers provide the physical infrastructure, while networking connects these devices, enabling communication and data transfer. Together, they form the backbone of our digital world, supporting everything from personal computing to global communication.",
-        "course_syllabus": ["Currently not available."]
+        "course_syllabus": ["Currently not available."],
+        "hightlight_in_homepae": false
     }
 ]

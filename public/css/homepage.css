@@ -288,6 +288,11 @@
   padding-bottom: 30px;
 }
 
+.pcsec-pad-2 {
+  padding-top: 50px;
+  text-align: center;
+}
+
 @media (max-width: 991px) {
   .pcsec-grid-cont {
     grid-template-columns: repeat(2, 1fr);
