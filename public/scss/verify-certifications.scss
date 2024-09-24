@@ -1,0 +1,290 @@
+// Verify Certifications
+
+.vcsec-outer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 100px);
+    background-color: var(--white);
+    transition: var(--site-standard-transition-delay);
+    position: relative;
+    overflow: hidden;
+}
+
+.vcsec-pat-1 {
+    position: absolute;
+    right: 50px;
+    top: 50px;
+    width: 200px;
+    height: 200px;
+    background-image: radial-gradient(var(--site-color-1) 3px, transparent 3px);
+    background-size: 24px 24px;
+    background-color: rgba(71, 212, 255, 0);
+    z-index: 1;
+}
+
+.vcsec-pat-2 {
+    position: absolute;
+    left: 50px;
+    bottom: 50px;
+    width: 150px;
+    height: 150px;
+    background-image: radial-gradient(var(--site-color-2) 3px, transparent 3px);
+    background-size: 24px 24px;
+    background-color: rgba(71, 212, 255, 0);
+    z-index: 1;
+}
+
+.vcsec-max-w {
+    min-width: 700px;
+    max-width: 700px;
+    margin: 0px auto;
+}
+
+.vcsec-cert-box {
+    padding: 30px;
+    background-color: var(--white);
+    border: 2px solid rgba(0, 0, 0, 0.20);
+    transition: var(--site-standard-transition-delay);
+    position: relative;
+    z-index: 3;
+}
+
+.vcsec-pad-1 {
+    padding-bottom: 20px;
+}
+
+.vcsec-pad-2 {
+    padding-bottom: 5px;
+}
+
+.nrftxt {
+    display: block;
+    padding: 0px;
+    margin: 0px;
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--site-color-4);
+    transition: var(--site-standard-transition-delay);
+}
+
+.vcsec-flbltxt {
+    display: block;
+    padding: 0px;
+    margin: 0px;
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--site-color-4);
+    transition: var(--site-standard-transition-delay);
+}
+
+.vcsec-ibflex {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 5px;
+}
+
+.error-messaage {
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    font-weight: 400;
+    font-size: 12px;
+    color: red;
+}
+
+.vcsec-inc {
+    flex: 1;
+}
+
+.vcsec-input {
+    display: block;
+    width: 100%;
+    margin: 0px;
+    padding: 8px 15px;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.50);
+    background-color: var(--site-color-3);
+    color: var(--site-color-4);
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 0px;
+    transition: var(--site-standard-transition-delay);
+}
+
+.vcsec-button {
+    display: inline-block;
+    margin: 0px;
+    padding: 8px 15px;
+    border: 1px solid var(--site-color-2);
+    background-color: var(--site-color-2);
+    color: var(--site-color-dark-1);
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 0px;
+    transition: var(--site-standard-transition-delay);
+    &:hover, &:active {
+        background-color: var(--site-color-2-hover-dark);
+        color: var(--site-color-dark-1);
+    }
+}
+
+.custom-loader {
+    display: inline-block;
+    --spinner-thikness: 4px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: conic-gradient(#0000 10%,var(--site-color-2));
+    mask: radial-gradient(farthest-side,#0000 calc(100% - var(--spinner-thikness)),#000 0);
+    animation:s3 1s infinite linear;
+}
+
+@keyframes s3 {to{transform: rotate(1turn)}}
+
+.vcsec-pad-3 {
+    padding-bottom: 30px;
+}
+
+.vcsec-rimg-cnt {
+    text-align: center;
+    & .inner {
+        display: inline-block;
+        position: relative;
+    }
+    & .photo-img {
+        display: inline-block;
+        width: 100%;
+        height: auto;
+        max-width: 150px;
+    }
+    & .vimg {
+        position: absolute;
+        right: -20px;
+        bottom: -20px;
+        width: 80px;
+        height: auto;
+        z-index: 3;
+    }
+}
+
+.vcsec-nfo-o1 {
+    text-align: center;
+}
+
+.vcsec-nfo-o2 {
+    display: inline-block;
+}
+
+.vcsec-nfo-grid {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    gap: 15px;
+    text-align: left;
+}
+
+.vcsec-legend, .vcsec-main {
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.vcsec-legend {
+    font-weight: 600;
+}
+
+.vcsec-main {
+    & .result {
+        font-weight: 700;
+    }
+    & .pass {
+        color: green;
+    }
+    & .fail {
+        color: red;
+    }
+}
+
+@media (max-width: 800px) {
+    .vcsec-max-w {
+        min-width: auto;
+    }
+}
+
+@media (max-width: 767px) {
+    .vcsec-cert-box {
+        padding: 20px;
+    }
+    .vcsec-pat-1 {
+        top: 20px;
+        right: 20px;
+        width: 100px;
+        height: 100px;
+        background-image: radial-gradient(var(--site-color-1) 2px, transparent 2px);
+        background-size: 12px 12px;
+        background-color: rgba(71, 212, 255, 0);
+    }
+    .vcsec-pat-2 {
+        bottom: 20px;
+        left: 20px;
+        width: 100px;
+        height: 100px;
+        background-image: radial-gradient(var(--site-color-2) 2px, transparent 2px);
+        background-size: 12px 12px;
+        background-color: rgba(71, 212, 255, 0);
+    }
+    .nrftxt {
+        font-size: 12px;
+    }
+    .vcsec-flbltxt {
+        font-size: 14px;
+    }
+    .vcsec-input {
+        font-size: 14px;
+    }
+    .vcsec-button {
+        font-size: 14px;
+    }
+    .vcsec-rimg-cnt {
+        & .photo-img {
+            max-width: 120px;
+        }
+        & .vimg {
+            right: -15px;
+            bottom: -15px;
+            width: 60px;
+        }
+    }
+    .vcsec-legend, .vcsec-main {
+        font-size: 14px;
+    }
+    .vcsec-nfo-o1 {
+        text-align: left;
+    }
+    .vcsec-nfo-o2 {
+        display: block;
+    }
+    .vcsec-nfo-grid {
+        grid-template-columns: 1fr;
+        gap: 3px 15px;
+    }
+    .vcsec-main {
+        padding-bottom: 15px;
+    }
+}
+
+.dark {
+    & .vcsec-cert-box {
+        border-color: rgba(255, 255, 255, 0.20);
+    }
+    & .vcsec-input {
+        border-color: rgba(255, 255, 255, 0.20);
+    }
+}

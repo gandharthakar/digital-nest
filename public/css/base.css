@@ -344,7 +344,7 @@ body {
   transition: var(--site-standard-transition-delay);
 }
 
-@media (max-width: 800px) {
+@media (max-width: 930px) {
   .header-logo-box .logo-img {
     width: 120px;
   }
@@ -388,7 +388,7 @@ body {
   color: var(--site-color-2);
 }
 
-@media (max-width: 800px) {
+@media (max-width: 930px) {
   .site-nav {
     position: fixed;
     right: -250px;
@@ -511,7 +511,7 @@ body {
   display: none;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 930px) {
   .header-sep {
     display: none;
   }
@@ -546,7 +546,7 @@ body {
   gap: 0px 20px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 930px) {
   .mob-nav-hdr {
     display: block;
   }

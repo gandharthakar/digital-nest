@@ -1,0 +1,355 @@
+.vcsec-outer {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: -webkit-calc(100vh - 100px);
+  min-height: calc(100vh - 100px);
+  background-color: var(--white);
+  -webkit-transition: var(--site-standard-transition-delay);
+  -o-transition: var(--site-standard-transition-delay);
+  transition: var(--site-standard-transition-delay);
+  position: relative;
+  overflow: hidden;
+}
+
+.vcsec-pat-1 {
+  position: absolute;
+  right: 50px;
+  top: 50px;
+  width: 200px;
+  height: 200px;
+  background-image: -webkit-radial-gradient(var(--site-color-1) 3px, transparent 3px);
+  background-image: -o-radial-gradient(var(--site-color-1) 3px, transparent 3px);
+  background-image: radial-gradient(var(--site-color-1) 3px, transparent 3px);
+  -webkit-background-size: 24px 24px;
+          background-size: 24px 24px;
+  background-color: rgba(71, 212, 255, 0);
+  z-index: 1;
+}
+
+.vcsec-pat-2 {
+  position: absolute;
+  left: 50px;
+  bottom: 50px;
+  width: 150px;
+  height: 150px;
+  background-image: -webkit-radial-gradient(var(--site-color-2) 3px, transparent 3px);
+  background-image: -o-radial-gradient(var(--site-color-2) 3px, transparent 3px);
+  background-image: radial-gradient(var(--site-color-2) 3px, transparent 3px);
+  -webkit-background-size: 24px 24px;
+          background-size: 24px 24px;
+  background-color: rgba(71, 212, 255, 0);
+  z-index: 1;
+}
+
+.vcsec-max-w {
+  min-width: 700px;
+  max-width: 700px;
+  margin: 0px auto;
+}
+
+.vcsec-cert-box {
+  padding: 30px;
+  background-color: var(--white);
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  -webkit-transition: var(--site-standard-transition-delay);
+  -o-transition: var(--site-standard-transition-delay);
+  transition: var(--site-standard-transition-delay);
+  position: relative;
+  z-index: 3;
+}
+
+.vcsec-pad-1 {
+  padding-bottom: 20px;
+}
+
+.vcsec-pad-2 {
+  padding-bottom: 5px;
+}
+
+.nrftxt {
+  display: block;
+  padding: 0px;
+  margin: 0px;
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--site-color-4);
+  -webkit-transition: var(--site-standard-transition-delay);
+  -o-transition: var(--site-standard-transition-delay);
+  transition: var(--site-standard-transition-delay);
+}
+
+.vcsec-flbltxt {
+  display: block;
+  padding: 0px;
+  margin: 0px;
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--site-color-4);
+  -webkit-transition: var(--site-standard-transition-delay);
+  -o-transition: var(--site-standard-transition-delay);
+  transition: var(--site-standard-transition-delay);
+}
+
+.vcsec-ibflex {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+  padding-bottom: 5px;
+}
+
+.error-messaage {
+  display: block;
+  margin: 0px;
+  padding: 0px;
+  font-weight: 400;
+  font-size: 12px;
+  color: red;
+}
+
+.vcsec-inc {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.vcsec-input {
+  display: block;
+  width: 100%;
+  margin: 0px;
+  padding: 8px 15px;
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  background-color: var(--site-color-3);
+  color: var(--site-color-4);
+  font-size: 16px;
+  font-weight: 600;
+  -webkit-border-radius: 0px;
+          border-radius: 0px;
+  -webkit-transition: var(--site-standard-transition-delay);
+  -o-transition: var(--site-standard-transition-delay);
+  transition: var(--site-standard-transition-delay);
+}
+
+.vcsec-button {
+  display: inline-block;
+  margin: 0px;
+  padding: 8px 15px;
+  border: 1px solid var(--site-color-2);
+  background-color: var(--site-color-2);
+  color: var(--site-color-dark-1);
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  -webkit-border-radius: 0px;
+          border-radius: 0px;
+  -webkit-transition: var(--site-standard-transition-delay);
+  -o-transition: var(--site-standard-transition-delay);
+  transition: var(--site-standard-transition-delay);
+}
+.vcsec-button:hover, .vcsec-button:active {
+  background-color: var(--site-color-2-hover-dark);
+  color: var(--site-color-dark-1);
+}
+
+.custom-loader {
+  display: inline-block;
+  --spinner-thikness: 4px;
+  width: 30px;
+  height: 30px;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  background: conic-gradient(rgba(0, 0, 0, 0) 10%, var(--site-color-2));
+  -webkit-mask: -webkit-radial-gradient(farthest-side, rgba(0, 0, 0, 0) -webkit-calc(100% - var(--spinner-thikness)), #000 0);
+          mask: radial-gradient(farthest-side, rgba(0, 0, 0, 0) calc(100% - var(--spinner-thikness)), #000 0);
+  -webkit-animation: s3 1s infinite linear;
+       -o-animation: s3 1s infinite linear;
+          animation: s3 1s infinite linear;
+}
+
+@-webkit-keyframes s3 {
+  to {
+    -webkit-transform: rotate(1turn);
+            transform: rotate(1turn);
+  }
+}
+
+@-o-keyframes s3 {
+  to {
+    -o-transform: rotate(1turn);
+       transform: rotate(1turn);
+  }
+}
+
+@keyframes s3 {
+  to {
+    -webkit-transform: rotate(1turn);
+         -o-transform: rotate(1turn);
+            transform: rotate(1turn);
+  }
+}
+.vcsec-pad-3 {
+  padding-bottom: 30px;
+}
+
+.vcsec-rimg-cnt {
+  text-align: center;
+}
+.vcsec-rimg-cnt .inner {
+  display: inline-block;
+  position: relative;
+}
+.vcsec-rimg-cnt .photo-img {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  max-width: 150px;
+}
+.vcsec-rimg-cnt .vimg {
+  position: absolute;
+  right: -20px;
+  bottom: -20px;
+  width: 80px;
+  height: auto;
+  z-index: 3;
+}
+
+.vcsec-nfo-o1 {
+  text-align: center;
+}
+
+.vcsec-nfo-o2 {
+  display: inline-block;
+}
+
+.vcsec-nfo-grid {
+  display: grid;
+  grid-template-columns: -webkit-max-content 1fr;
+  grid-template-columns: max-content 1fr;
+  gap: 15px;
+  text-align: left;
+}
+
+.vcsec-legend, .vcsec-main {
+  display: block;
+  margin: 0px;
+  padding: 0px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.vcsec-legend {
+  font-weight: 600;
+}
+
+.vcsec-main .result {
+  font-weight: 700;
+}
+.vcsec-main .pass {
+  color: green;
+}
+.vcsec-main .fail {
+  color: red;
+}
+
+@media (max-width: 800px) {
+  .vcsec-max-w {
+    min-width: auto;
+  }
+}
+@media (max-width: 767px) {
+  .vcsec-cert-box {
+    padding: 20px;
+  }
+  .vcsec-pat-1 {
+    top: 20px;
+    right: 20px;
+    width: 100px;
+    height: 100px;
+    background-image: -webkit-radial-gradient(var(--site-color-1) 2px, transparent 2px);
+    background-image: -o-radial-gradient(var(--site-color-1) 2px, transparent 2px);
+    background-image: radial-gradient(var(--site-color-1) 2px, transparent 2px);
+    -webkit-background-size: 12px 12px;
+            background-size: 12px 12px;
+    background-color: rgba(71, 212, 255, 0);
+  }
+  .vcsec-pat-2 {
+    bottom: 20px;
+    left: 20px;
+    width: 100px;
+    height: 100px;
+    background-image: -webkit-radial-gradient(var(--site-color-2) 2px, transparent 2px);
+    background-image: -o-radial-gradient(var(--site-color-2) 2px, transparent 2px);
+    background-image: radial-gradient(var(--site-color-2) 2px, transparent 2px);
+    -webkit-background-size: 12px 12px;
+            background-size: 12px 12px;
+    background-color: rgba(71, 212, 255, 0);
+  }
+  .nrftxt {
+    font-size: 12px;
+  }
+  .vcsec-flbltxt {
+    font-size: 14px;
+  }
+  .vcsec-input {
+    font-size: 14px;
+  }
+  .vcsec-button {
+    font-size: 14px;
+  }
+  .vcsec-rimg-cnt .photo-img {
+    max-width: 120px;
+  }
+  .vcsec-rimg-cnt .vimg {
+    right: -15px;
+    bottom: -15px;
+    width: 60px;
+  }
+  .vcsec-legend, .vcsec-main {
+    font-size: 14px;
+  }
+  .vcsec-nfo-o1 {
+    text-align: left;
+  }
+  .vcsec-nfo-o2 {
+    display: block;
+  }
+  .vcsec-nfo-grid {
+    grid-template-columns: 1fr;
+    gap: 3px 15px;
+  }
+  .vcsec-main {
+    padding-bottom: 15px;
+  }
+}
+.dark .vcsec-cert-box {
+  border-color: rgba(255, 255, 255, 0.2);
+}
+.dark .vcsec-input {
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+/*# sourceMappingURL=verify-certifications.css.map */
