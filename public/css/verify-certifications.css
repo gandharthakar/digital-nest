@@ -116,7 +116,7 @@
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  gap: 10px;
+  gap: 15px;
   padding-bottom: 5px;
 }
 
@@ -140,12 +140,12 @@
   display: block;
   width: 100%;
   margin: 0px;
-  padding: 8px 15px;
+  padding: 12px 15px;
   width: 100%;
   border: 1px solid rgba(0, 0, 0, 0.5);
   background-color: var(--site-color-3);
   color: var(--site-color-4);
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 600;
   -webkit-border-radius: 0px;
           border-radius: 0px;
@@ -157,11 +157,11 @@
 .vcsec-button {
   display: inline-block;
   margin: 0px;
-  padding: 8px 15px;
+  padding: 12px 25px;
   border: 1px solid var(--site-color-2);
   background-color: var(--site-color-2);
   color: var(--site-color-dark-1);
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 600;
   cursor: pointer;
   -webkit-border-radius: 0px;
@@ -182,7 +182,7 @@
   height: 30px;
   -webkit-border-radius: 50%;
           border-radius: 50%;
-  background: conic-gradient(rgba(0, 0, 0, 0) 10%, var(--site-color-2));
+  background: conic-gradient(rgba(0, 0, 0, 0) 10%, var(--site-color-1));
   -webkit-mask: -webkit-radial-gradient(farthest-side, rgba(0, 0, 0, 0) -webkit-calc(100% - var(--spinner-thikness)), #000 0);
           mask: radial-gradient(farthest-side, rgba(0, 0, 0, 0) calc(100% - var(--spinner-thikness)), #000 0);
   -webkit-animation: s3 1s infinite linear;
@@ -315,10 +315,12 @@
     font-size: 14px;
   }
   .vcsec-input {
-    font-size: 14px;
+    padding: 8px 15px;
+    font-size: 16px;
   }
   .vcsec-button {
-    font-size: 14px;
+    padding: 8px 20px;
+    font-size: 16px;
   }
   .vcsec-rimg-cnt .photo-img {
     max-width: 120px;

@@ -84,7 +84,7 @@
 .vcsec-ibflex {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 15px;
     padding-bottom: 5px;
 }
 
@@ -105,12 +105,12 @@
     display: block;
     width: 100%;
     margin: 0px;
-    padding: 8px 15px;
+    padding: 12px 15px;
     width: 100%;
     border: 1px solid rgba(0, 0, 0, 0.50);
     background-color: var(--site-color-3);
     color: var(--site-color-4);
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 600;
     border-radius: 0px;
     transition: var(--site-standard-transition-delay);
@@ -119,11 +119,11 @@
 .vcsec-button {
     display: inline-block;
     margin: 0px;
-    padding: 8px 15px;
+    padding: 12px 25px;
     border: 1px solid var(--site-color-2);
     background-color: var(--site-color-2);
     color: var(--site-color-dark-1);
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 600;
     cursor: pointer;
     border-radius: 0px;
@@ -140,7 +140,7 @@
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    background: conic-gradient(#0000 10%,var(--site-color-2));
+    background: conic-gradient(#0000 10%,var(--site-color-1));
     mask: radial-gradient(farthest-side,#0000 calc(100% - var(--spinner-thikness)),#000 0);
     animation:s3 1s infinite linear;
 }
@@ -247,10 +247,12 @@
         font-size: 14px;
     }
     .vcsec-input {
-        font-size: 14px;
+        padding: 8px 15px;
+        font-size: 16px;
     }
     .vcsec-button {
-        font-size: 14px;
+        padding: 8px 20px;
+        font-size: 16px;
     }
     .vcsec-rimg-cnt {
         & .photo-img {

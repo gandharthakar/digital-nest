@@ -75,12 +75,12 @@
         "course_tutor": "Gandhar Thakar",
         "course_mode": "Online only.",
         "course_about": "Web development encompasses the process of building and maintaining websites. It includes front-end development, which focuses on user interface and experience using HTML, CSS, and JavaScript, and back-end development, which manages server-side logic and databases. Effective web development ensures sites are responsive, accessible, and optimized for performance and SEO.",
-        "course_syllabus": ["Currently not available."]
+        "course_syllabus": ["HTML basic to advance", "CSS basic to advance", "JavaScript basic to intermediate.", "4 Asignments", "1 Final Project"]
     },
     {
         "course_id": "DNCI_C07",
         "course_name": "Web Development - Level 2",
-        "course_summary": "Web development involves creating and maintaining websites, using languages like HTML, CSS, and JavaScript to build responsive and user-friendly experiences.",
+        "course_summary": "In this course you will learn about JavaScript basic to advance, jQuery, GitHub, and Bootstrap CSS Framework",
         "course_cover_photo": "web-development-course-thumb.jpg",
         "course_duration": "6 Months",
         "course_batch_time": "Only on saturday 3AM - 6PM",
@@ -88,12 +88,12 @@
         "course_tutor": "Gandhar Thakar",
         "course_mode": "Online only.",
         "course_about": "Web development encompasses the process of building and maintaining websites. It includes front-end development, which focuses on user interface and experience using HTML, CSS, and JavaScript, and back-end development, which manages server-side logic and databases. Effective web development ensures sites are responsive, accessible, and optimized for performance and SEO.",
-        "course_syllabus": ["Currently not available."]
+        "course_syllabus": ["JavaScript basic to Advance.", "jQuery", "Git", "Bootstrap", "4 Asignments", "2 Final Project"]
     },
     {
         "course_id": "DNCI_C08",
         "course_name": "Web Development - Level 3",
-        "course_summary": "Web development involves creating and maintaining websites, using languages like HTML, CSS, and JavaScript to build responsive and user-friendly experiences.",
+        "course_summary": "In this course you will learn about MongoDB, React JS, Express JS, Node JS & JWT tokens for authentication.",
         "course_cover_photo": "web-development-course-thumb.jpg",
         "course_duration": "6 Months",
         "course_batch_time": "Only on sunday 10AM - 1PM",
@@ -101,7 +101,7 @@
         "course_tutor": "Gandhar Thakar",
         "course_mode": "Online only.",
         "course_about": "Web development encompasses the process of building and maintaining websites. It includes front-end development, which focuses on user interface and experience using HTML, CSS, and JavaScript, and back-end development, which manages server-side logic and databases. Effective web development ensures sites are responsive, accessible, and optimized for performance and SEO.",
-        "course_syllabus": ["Currently not available."]
+        "course_syllabus": ["MongoDB", "React", "Express JS", "Node JS", "JWT Tokens", "4 Asignments", "2 Final Project"]
     },
     {
         "course_id": "DNCI_C09",

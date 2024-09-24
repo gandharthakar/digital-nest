@@ -31,7 +31,8 @@ const getCourseInfo = async (cid) => {
     courseAbout.innerHTML = `${res[0].course_about}`;
     let sylList = res[0].course_syllabus;
     courseSyllabus.innerHTML = '';
-    for(let i = 0; i < sylList.length; i++) {
+    let rev_sylList = sylList.reverse();
+    for(let i = 0; i < rev_sylList.length; i++) {
         let list = `<li>${sylList[i]}</li>`;
         courseSyllabus.insertAdjacentHTML("afterbegin", list);
     }
