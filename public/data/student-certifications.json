@@ -3,9 +3,9 @@
         "record_id": "DNCI_CRN_01",
         "certification_number": "DNCI000022",
         "student_photo": "magesh-mudaliyar.jpg",
-        "student_full_name": "Magesh Mudaliyar",
+        "student_full_name": "Magesh Parshuram Mudaliyar",
         "course_name": "Tally ERP 9 + GST",
-        "certificate_issued_date": "26 Aug 2023",
+        "issued_date": "26 Aug 2023",
         "marks_obtained": "90",
         "marks_out_of": "100"
     },
@@ -13,9 +13,9 @@
         "record_id": "DNCI_CRN_02",
         "certification_number": "DNCI000023",
         "student_photo": "",
-        "student_full_name": "Hitesh Thakker",
+        "student_full_name": "Hitesh Ashok Thakker",
         "course_name": "Web Development - Level 1",
-        "certificate_issued_date": "07 Nov 2022",
+        "issued_date": "07 Nov 2022",
         "marks_obtained": "75",
         "marks_out_of": "100"
     }

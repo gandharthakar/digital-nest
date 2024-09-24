@@ -79,7 +79,7 @@ const prepResultBox = (data) => {
                         Issued Date: 
                     </div>
                     <div class="vcsec-main">
-                        ${data.certificate_issued_date}
+                        ${data.issued_date}
                     </div>
                     <div class="vcsec-legend">
                         Marks Obtained: 
