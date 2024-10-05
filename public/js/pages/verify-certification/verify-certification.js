@@ -115,6 +115,7 @@ const getStudent = async (cid) => {
         let st = setTimeout(() => {
             noResult.style.display = 'none';
             let box = prepResultBox(filterStudent[0]);
+            result.innerHTML = '';
             result.insertAdjacentHTML("afterbegin", box);
             spinner.style.display = 'none';
             clearTimeout(st);

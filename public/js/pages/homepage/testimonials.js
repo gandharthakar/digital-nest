@@ -57,7 +57,7 @@ const getTestimonials = async () => {
     const body = await resp.json();
     const rev_body = body.reverse();
     for(let i = 0; i < rev_body.length; i++) {
-        let box = prepTestimonialsBox(body[i]);
+        let box = prepTestimonialsBox(rev_body[i]);
         testiWrapper.insertAdjacentHTML("afterbegin", box);
     }
     
